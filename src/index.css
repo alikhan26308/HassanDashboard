@@ -1,0 +1,62 @@
+/* tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font -> Roboto */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
+
+/* all */
+
+
+@font-face {
+  font-family: "FS Albert Arabic Web";
+  src: url("https://db.onlinewebfonts.com/t/61db15be9b551cb288a436298dd2051b.eot");
+  src: url("https://db.onlinewebfonts.com/t/61db15be9b551cb288a436298dd2051b.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/61db15be9b551cb288a436298dd2051b.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/61db15be9b551cb288a436298dd2051b.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/61db15be9b551cb288a436298dd2051b.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/61db15be9b551cb288a436298dd2051b.svg#FS Albert Arabic Web")format("svg");
+}
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* html */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* body */
+body {
+  overflow: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* ancher tag */
+a,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* media queries */
+
+/* >= 768px */
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 110%;
+  }
+}
